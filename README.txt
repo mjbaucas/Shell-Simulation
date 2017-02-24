@@ -14,7 +14,20 @@ The program m_shell is a linux based program to simulate simple shell functions.
 /* Execution */
     - Make sure the program is compiled
     - Make sure user is in the main program directory
-    - Type in './m_shell'
+    - Type in './m_shell' followed by any desired command
+
+/* Working Features */
+    - All common linux commands (except cd)
+    - using input and output redirectors '<' and '>' (Note: cannot do both at the same time)
+
+/* Limitations */
+    - Not as forgiving as the usual shell with arguments that are not spaced out.
+    - input redirectors work differently, input is from the contents of the passed file and wont consider the file name as an input.
+
+/* Additional Features */
+    - 'add' - get the sum of the passed arguments
+    - 'args' - count the number of arguments passed
+    - 'ave' - get the average value of the arguments passed
 
 /* Testing */
 
